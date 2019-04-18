@@ -1,0 +1,29 @@
+
+[1mFrom:[0m /home/lucky-environment-3687/advanced-hashes-hashketball-nyc-web-career-042219/hashketball.rb @ line 162 Object#shoe_size:
+
+    [1;34m150[0m: [32mdef[0m [1;34mshoe_size[0m (player)
+    [1;34m151[0m:   game_hash.each [32mdo[0m |location, team_data|
+    [1;34m152[0m: 
+    [1;34m153[0m:     team_data.each [32mdo[0m |attribute, data|
+    [1;34m154[0m: 
+    [1;34m155[0m:         [32mif[0m attribute == [33m:players[0m
+    [1;34m156[0m: 
+    [1;34m157[0m:           data.each [32mdo[0m |data_item|
+    [1;34m158[0m:             data_item.each [32mdo[0m |player_stats, stats|
+    [1;34m159[0m: 
+    [1;34m160[0m:             [32mif[0m player_stats == player
+    [1;34m161[0m:               stats.each [32mdo[0m |stat_name, stat_data|
+ => [1;34m162[0m:                 binding.pry
+    [1;34m163[0m:                 [32mif[0m stat_name == [33m:shoe_size[0m
+    [1;34m164[0m:                   [32mreturn[0m stat_data
+    [1;34m165[0m: 
+    [1;34m166[0m:                 [32mend[0m
+    [1;34m167[0m:               [32mend[0m
+    [1;34m168[0m:             [32mend[0m
+    [1;34m169[0m:             [32mend[0m
+    [1;34m170[0m:           [32mend[0m
+    [1;34m171[0m:         [32mend[0m
+    [1;34m172[0m:       [32mend[0m
+    [1;34m173[0m:     [32mend[0m
+    [1;34m174[0m: [32mend[0m
+
