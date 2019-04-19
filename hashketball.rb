@@ -149,54 +149,70 @@ def shoe_size(player)
   return shoe
 end
 
-# def player_numbers(team)
-#   number = []
-#   game_hash.each do |game_key, game_value|
-#     if game_value[:team_name] == team
-#     game_value.each do |team_key, team_value|
-#     if team_key == :players
-#     team_value.each do |player_key, player_value|
-#       # binding.pry
-#     number << player_key[:number].to_s
-#           end
-#         end
-#       end
-#     end
-#   # binding.pry
-# end
-# return numbers.join(", ")
-# end
+def player_numbers(team)
+  number = []
+  game_hash.each do |game_key, game_value|
+    if game_value[:team_name] == team
+    game_value.each do |team_key, team_value|
+    if team_key == :players
+    team_value.each do |player_key, player_value|
+      # binding.pry
+    number << player_value[:number]
+          end
+        end
+      end
+    end
+  # binding.pry
+end
+return number
+end
 
-#
-#
+
+
 def team_colors(team)
   color = []
   game_hash.each do |game_key, game_value|
     game_value.each do |team_key, team_value|
       if team_value == team
-        binding.pry
-        color << team_key[:colors]
+        # binding.pry
+        color << game_value[:colors]
       end
     end
   end
-  return color.to_s
+  return color.flatten
+end
+
+
+def team_names
+  names = []
+  game_hash.each do |game_key, game_value|
+    game_value.each do |team_key, team_value|
+    names  << team_key[:team_name]
+
+    end
+    binding.pry
+
+  end
+  return names
 end
 
 #
 #
-# def big_shoe_rebounds
-#   biggest_size = 0
-#   game_hash.each do |game_key, game_value|
-#   game_value.each do |team_key, team_value|
-#   if team_key == :players
-#   team_value.each do |player_key, player_value|
-#   # binding.pry
-#   if player_value[:shoe] > biggest_size
-#     biggest_size = player_value[:shoe]
-#         end
-#       end
-#     end
-#   end
-# end
-# return player_value[:rebounds]
-# end
+def big_shoe_rebounds
+  biggest_size = 0
+  game_hash.each do |game_key, game_value|
+  game_value.each do |team_key, team_value|
+  if team_key == :players
+  team_value.each do |player_key, player_value|
+  # binding.pry
+  if player_value[:shoe] > biggest_size
+    biggest_size = player_value[:shoe]
+    if player_value[:shoe] == biggest_size
+      return player_value[:rebounds]
+          end
+        end
+      end
+    end
+    end
+  end
+end
