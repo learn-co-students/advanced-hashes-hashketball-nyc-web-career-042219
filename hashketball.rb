@@ -149,35 +149,39 @@ def shoe_size(player)
   return shoe
 end
 
-def player_numbers(team)
-  number = []
-  game_hash.each do |game_key, game_value|
-    if game_value[:team_name] == team
-    game_value.each do |team_key, team_value|
-    team_value.each do |player_key, player_value|
-    number << player_value[:number]
-          end
-        end
-      end
-  # binding.pry
-end
-return numbers
-end
+# def player_numbers(team)
+#   number = []
+#   game_hash.each do |game_key, game_value|
+#     if game_value[:team_name] == team
+#     game_value.each do |team_key, team_value|
+#     if team_key == :players
+#     team_value.each do |player_key, player_value|
+#       # binding.pry
+#     number << player_key[:number].to_s
+#           end
+#         end
+#       end
+#     end
+#   # binding.pry
+# end
+# return numbers.join(", ")
+# end
 
 #
 #
-# def team_colors(team)
-#   game_hash.each do |game_key, game_value|
-#     game_value.each do |team_key, team_value|
-#       # binding.pry
-#       if team_value[:team_name] == team
-#         # color = team_key[:colors]
-#       end
-#     end
-#   end
-#   return team_key[:colors]
-# end
-#
+def team_colors(team)
+  color = []
+  game_hash.each do |game_key, game_value|
+    game_value.each do |team_key, team_value|
+      if team_value == team
+        binding.pry
+        color << team_key[:colors]
+      end
+    end
+  end
+  return color.to_s
+end
+
 #
 #
 # def big_shoe_rebounds
