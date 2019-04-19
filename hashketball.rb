@@ -186,14 +186,9 @@ end
 def team_names
   names = []
   game_hash.each do |game_key, game_value|
-    game_value.each do |team_key, team_value|
-    names  << team_key[:team_name]
-
-    end
-    binding.pry
-
+    names  << game_value[:team_name]
   end
-  return names
+return names
 end
 
 #
@@ -215,4 +210,19 @@ def big_shoe_rebounds
     end
     end
   end
+end
+
+def player_stats(player)
+  game_hash.each do |game_key, game_value|
+    game_value.each do |team_key, team_value|
+      if team_key == :players
+        team_value.each do |player_key, player_value|
+          if player_key == player
+          return player_value
+
+end
+end
+end
+end
+end
 end
