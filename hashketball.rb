@@ -1,3 +1,87 @@
+#WHOSE HAS BEEN MISSING WITH MY CODE?
+ # 88                      ,ad8888ba,                     88        88
+ # 88                     d8"'    `"8b                    88        88
+ # 88                    d8'                              88        88
+ # 88                    88                               88        88
+ # 88                    88                               88        88
+ # 88                    Y8,                              88        88
+ # 88                     Y8a.    .a8P                    Y8a.    .a8P
+ # 88                      `"Y8888Y"'                      `"Y8888Y"'
+ #
+ #
+ #
+ #
+ #     						   ...----....
+ #                         ..-:"''         ''"-..
+ #                      .-'                      '-.
+ #                    .'              .     .       '.
+ #                  .'   .          .    .      .    .''.
+ #                .'  .    .       .   .   .     .   . ..:.
+ #              .' .   . .  .       .   .   ..  .   . ....::.
+ #             ..   .   .      .  .    .     .  ..  . ....:IA.
+ #            .:  .   .    .    .  .  .    .. .  .. .. ....:IA.
+ #           .: .   .   ..   .    .     . . .. . ... ....:.:VHA.
+ #           '..  .  .. .   .       .  . .. . .. . .....:.::IHHB.
+ #          .:. .  . .  . .   .  .  . . . ...:.:... .......:HIHMM.
+ #         .:.... .   . ."::"'.. .   .  . .:.:.:II;,. .. ..:IHIMMA
+ #         ':.:..  ..::IHHHHHI::. . .  ...:.::::.,,,. . ....VIMMHM
+ #        .:::I. .AHHHHHHHHHHAI::. .:...,:IIHHHHHHMMMHHL:. . VMMMM
+ #       .:.:V.:IVHHHHHHHMHMHHH::..:" .:HIHHHHHHHHHHHHHMHHA. .VMMM.
+ #       :..V.:IVHHHHHMMHHHHHHHB... . .:VPHHMHHHMMHHHHHHHHHAI.:VMMI
+ #       ::V..:VIHHHHHHMMMHHHHHH. .   .I":IIMHHMMHHHHHHHHHHHAPI:WMM
+ #       ::". .:.HHHHHHHHMMHHHHHI.  . .:..I:MHMMHHHHHHHHHMHV:':H:WM
+ #       :: . :.::IIHHHHHHMMHHHHV  .ABA.:.:IMHMHMMMHMHHHHV:'. .IHWW
+ #       '.  ..:..:.:IHHHHHMMHV" .AVMHMA.:.'VHMMMMHHHHHV:' .  :IHWV
+ #        :.  .:...:".:.:TPP"   .AVMMHMMA.:. "VMMHHHP.:... .. :IVAI
+ #       .:.   '... .:"'   .   ..HMMMHMMMA::. ."VHHI:::....  .:IHW'
+ #       ...  .  . ..:IIPPIH: ..HMMMI.MMMV:I:.  .:ILLH:.. ...:I:IM
+ #     : .   .'"' .:.V". .. .  :HMMM:IMMMI::I. ..:HHIIPPHI::'.P:HM.
+ #     :.  .  .  .. ..:.. .    :AMMM IMMMM..:...:IV":T::I::.".:IHIMA
+ #     'V:.. .. . .. .  .  .   'VMMV..VMMV :....:V:.:..:....::IHHHMH
+ #       "IHH:.II:.. .:. .  . . . " :HB"" . . ..PI:.::.:::..:IHHMMV"
+ #        :IP""HHII:.  .  .    . . .'V:. . . ..:IH:.:.::IHIHHMMMMM"
+ #        :V:. VIMA:I..  .     .  . .. . .  .:.I:I:..:IHHHHMMHHMMM
+ #        :"VI:.VWMA::. .:      .   .. .:. ..:.I::.:IVHHHMMMHMMMMI
+ #        :."VIIHHMMA:.  .   .   .:  .:.. . .:.II:I:AMMMMMMHMMMMMI
+ #        :..VIHIHMMMI...::.,:.,:!"I:!"I!"I!"V:AI:VAMMMMMMHMMMMMM'
+ #        ':.:HIHIMHHA:"!!"I.:AXXXVVXXXXXXXA:."HPHIMMMMHHMHMMMMMV
+ #          V:H:I:MA:W'I :AXXXIXII:IIIISSSSSSXXA.I.VMMMHMHMMMMMM
+ #            'I::IVA ASSSSXSSSSBBSBMBSSSSSSBBMMMBS.VVMMHIMM'"'
+ #             I:: VPAIMSSSSSSSSSBSSSMMBSSSBBMMMMXXI:MMHIMMI
+ #            .I::. "H:XIIXBBMMMMMMMMMMMMMMMMMBXIXXMMPHIIMM'
+ #            :::I.  ':XSSXXIIIIXSSBMBSSXXXIIIXXSMMAMI:.IMM
+ #            :::I:.  .VSSSSSISISISSSBII:ISSSSBMMB:MI:..:MM
+ #            ::.I:.  ':"SSSSSSSISISSXIIXSSSSBMMB:AHI:..MMM.
+ #            ::.I:. . ..:"BBSSSSSSSSSSSSBBBMMMB:AHHI::.HMMI
+ #            :..::.  . ..::":BBBBBSSBBBMMMB:MMMMHHII::IHHMI
+ #            ':.I:... ....:IHHHHHMMMMMMMMMMMMMMMHHIIIIHMMV"
+ #              "V:. ..:...:.IHHHMMMMMMMMMMMMMMMMHHHMHHMHP'
+ #               ':. .:::.:.::III::IHHHHMMMMMHMHMMHHHHM"
+ #                 "::....::.:::..:..::IIIIIHHHHMMMHHMV"
+ #                   "::.::.. .. .  ...:::IIHHMMMMHMV"
+ #                     "V::... . .I::IHHMMV"'
+ #                       '"VHVHHHAHHHHMMV:"'
+ #
+ #
+ #
+ #
+ #
+ # 88888888ba   88888888888  88888888888  88888888ba   88  888b      88    ,ad8888ba,
+ # 88      "8b  88           88           88      "8b  88  8888b     88   d8"'    `"8b
+ # 88      ,8P  88           88           88      ,8P  88  88 `8b    88  d8'
+ # 88aaaaaa8P'  88aaaaa      88aaaaa      88aaaaaa8P'  88  88  `8b   88  88
+ # 88""""""'    88"""""      88"""""      88""""""'    88  88   `8b  88  88      88888
+ # 88           88           88           88           88  88    `8b 88  Y8,        88
+ # 88           88           88           88           88  88     `8888   Y8a.    .a88
+ # 88           88888888888  88888888888  88           88  88      `888    `"Y88888P"
+ #
+ #
+
+
+
+
+
+
 require "pry"
 
 def game_hash
@@ -172,6 +256,7 @@ end
 def team_colors(team)
   color = []
   game_hash.each do |game_key, game_value|
+    # binding.pry
     game_value.each do |team_key, team_value|
       if team_value == team
         # binding.pry
@@ -186,7 +271,7 @@ end
 def team_names
   names = []
   game_hash.each do |game_key, game_value|
-    names  << game_value[:team_name]
+  names << game_value[:team_name]
   end
 return names
 end
@@ -204,6 +289,7 @@ def big_shoe_rebounds
     biggest_size = player_value[:shoe]
     if player_value[:shoe] == biggest_size
       return player_value[:rebounds]
+
           end
         end
       end
@@ -211,6 +297,8 @@ def big_shoe_rebounds
     end
   end
 end
+
+  # binding.pry
 
 def player_stats(player)
   game_hash.each do |game_key, game_value|
@@ -226,3 +314,41 @@ end
 end
 end
 end
+#
+#
+# def team_colors(team)
+#   color = []
+#   game_hash.each do |game_key, game_value|
+#     game_value.each do |team_key, team_value|
+#       # binding.pry
+#       if team_value[:team_name] == team
+#         # color = team_key[:colors]
+#       end
+#     end
+#   end
+#   return team_key[:colors]
+# end
+
+
+
+# def big_shoe_rebounds
+#   biggest_size = 0
+#   game_hash.each do |game_key, game_value|
+#   game_value.each do |team_key, team_value|
+#   if team_key == :players
+#   team_value.each do |player_key, player_value|
+#   # binding.pry
+#   if player_value[:shoe] > biggest_size
+#     biggest_size = player_value[:shoe]
+#     if player_value[:shoe] = biggest_size
+#     return player_value[:rebounds]
+#
+#         end
+#       end
+#     end
+#
+# end
+# end
+#
+# end
+# end
