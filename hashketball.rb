@@ -223,3 +223,63 @@ def big_shoe_rebounds
 	r 
 end
 
+def most_points_scored
+	most_points = nil
+	player = nil
+	game_hash.each do |team, attributes|
+		game_hash[team][:players].each do |player_name, player_info|
+			if !most_points || player_info[:points] > most_points
+				player = player_name
+				most_points = player_info[:points]
+			end
+		end
+	end
+	player
+end
+
+def winning_team
+	home_count = 0
+	away_count = 0
+	game_hash[:home][:players].each do |player_name, stats|
+		# binding.pry
+		home_count += stats[:points]
+	end 
+	game_hash[:away][:players].each do |player_name, stats|
+		away_count += stats[:points]
+	end 
+	home_count > away_count ? game_hash[:home][:team_name] : game_hash[:away][:team_name]
+end
+
+def player_with_longest_name
+	name_length = nil
+	player = ""
+	game_hash.each do |team, info|
+		game_hash[team][:players].each do |player_name, attr|
+			if !name_length || player_name.length > name_length
+				name_length = player_name.length
+				player = player_name
+			end
+		end
+	end
+	player
+end
+
+def long_name_steals_a_ton?
+	most_steals = nil
+	player = ""
+	game_hash.each do |team, info|
+		game_hash[team][:players].each do |player_name, attribute|
+			# binding.pry
+			if !most_steals || attribute[:steals] > most_steals
+				most_steals = attribute[:steals]
+				player = player_name
+			end
+		end
+	end
+	# binding.pry
+	player == player_with_longest_name ? true : false
+end
+
+
+
+
